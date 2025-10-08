@@ -1,0 +1,17 @@
+# Sample configuration for the RealMoon monitoring application
+base_currency: CNY
+currencies:
+  - USD
+  - AUD
+  - JPY
+interval_seconds: 600
+thresholds:
+  USD:
+    lower: 0.130
+    upper: 0.150
+  AUD:
+    lower: 0.190
+    upper: 0.210
+  JPY:
+    lower: 20.0
+    upper: 22.0
